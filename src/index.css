@@ -1,0 +1,112 @@
+@font-face {
+  font-family: Roboto;
+  src: url(/src/font/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-italic;
+  src: url(/src/font/Roboto-Italic.ttf);
+}
+@font-face {
+  font-family: Roboto-thin;
+  src: url(/src/font/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: Roboto-light;
+  src: url(/src/font/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: Roboto-bold;
+  src: url(/src/font/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Playfair;
+  src: url(/src/font/PlayfairDisplay-VariableFont_wght.ttf);
+}
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color: rgb(173, 66, 245);
+  padding: 1rem;
+  color: rgb(248, 245, 250);
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1{
+  font-family: Playfair ;
+  font-weight: 900;
+  letter-spacing: 0.05rem;
+}
+.navLinks{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  list-style-type: none;
+  font-family: Roboto-light;
+}
+.navLinks a {
+  text-decoration: none;
+  color: rgb(248, 245, 250);
+  padding: 0.5rem;
+}
+.navLinks a:hover{
+  text-decoration: underline;
+  font-weight: 700;
+  color: #FFD700;
+}
+body{
+  background-color: #F5F5F5;
+  font-family: Roboto;
+}
+.projectImage{
+  width: 90%;
+  border-radius: 0.8rem;
+}
+.container{
+  margin: 30px 20px 10px;
+}
+article{
+  margin: 40px 20px 10px;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  border-radius: 0.5rem;
+}
+.projectLink{
+  display: flex;
+  gap: 1rem ;
+}
+.projectLink a {
+  text-decoration: none;
+  background-color: rgb(173, 66, 245);
+  padding: 0.4rem;
+  border-radius: 0.5rem;
+  font-family: Roboto-thin;
+  font-size: 13px;
+  color: rgb(248, 245, 250);
+  font-weight: 600;
+}
+.projectLink a:hover{
+  background-color: #FFD700;
+  color: #6A1B9A;
+}
+.projectTitle{
+  color: rgb(69, 20, 102);
+  font-weight: 200;
+  font-family: Roboto-bold;
+  font-weight: 900;
+}
+.projectDescription{
+  font-family: Roboto;
+  color: #616161;
+  font-size: 0.9rem;
+}
+.projectDetail{
+  color:#333333;
+}
