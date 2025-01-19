@@ -1,3 +1,4 @@
+
 export default[ 
 {
     key: 1,
@@ -14,6 +15,18 @@ export default[
 {
     key: 2,
     img :{
+        src:"/src/images/CalculatorProject.png" ,
+        alt:"webapp screenshot" 
+    },
+    title : 'Calculator Project',
+    description : 'This Project was built using HTML, CSS and React',
+    detail : 'This Project is a web Calculator. It performs basic arithmetic functions including addition, subtraction, multiplication and division' ,
+    liveSite : 'https://calculator-app-qlcw.vercel.app/',
+    gitRepo: 'https://github.com/Sumta4real/calculator-Project'
+},
+{
+    key: 3,
+    img :{
         src:"/src/images/testimonial-pageProject.png" ,
         alt:"webapp screenshot" 
     },
@@ -24,7 +37,7 @@ export default[
     gitRepo: 'https://github.com/Sumta4real/testimonials-page'
 },
 {
-    key: 3,
+    key: 4,
     img :{
         src:"/src/images/four-card-sectionProject.png" ,
         alt:"webapp screenshot" 
@@ -36,7 +49,7 @@ export default[
     gitRepo: 'https://github.com/Sumta4real/four-card-section-page'
 },
 {
-    key: 4,
+    key: 5,
     img :{
         src:"/src/images/recipe-pageProject.png" ,
         alt:"webapp screenshot" 
