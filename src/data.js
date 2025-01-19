@@ -3,7 +3,7 @@ export default[
 {
     key: 1,
     img :{
-        src:"/src/images/counterProject.png" ,
+        src:"/images/counterProject.png" ,
         alt:"webapp screenshot" 
     },
     title : 'Web Counter Project',
@@ -15,7 +15,7 @@ export default[
 {
     key: 2,
     img :{
-        src:"/src/images/CalculatorProject.png" ,
+        src: "/images/CalculatorProject.png" ,
         alt:"webapp screenshot" 
     },
     title : 'Calculator Project',
@@ -27,7 +27,7 @@ export default[
 {
     key: 3,
     img :{
-        src:"/src/images/testimonial-pageProject.png" ,
+        src:"/images/testimonial-pageProject.png" ,
         alt:"webapp screenshot" 
     },
     title : 'Testimonial Page',
@@ -39,7 +39,7 @@ export default[
 {
     key: 4,
     img :{
-        src:"/src/images/four-card-sectionProject.png" ,
+        src:"/images/four-card-sectionProject.png" ,
         alt:"webapp screenshot" 
     },
     title : 'Four  Card Section  Project',
@@ -51,7 +51,7 @@ export default[
 {
     key: 5,
     img :{
-        src:"/src/images/recipe-pageProject.png" ,
+        src:"/images/recipe-pageProject.png" ,
         alt:"webapp screenshot" 
     },
     title : 'Recipe Page',
