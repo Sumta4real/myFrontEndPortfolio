@@ -62,12 +62,31 @@ body{
   background-color: #F5F5F5;
   font-family: Roboto;
 }
+.imageContainer{
+  width: 100%; /* Adjust to your layout, e.g., 300px for a grid */
+  max-width: 400px; /* Optional: Limit the max size */
+  aspect-ratio: 16 / 9; /* Maintains uniform 16:9 aspect ratio */
+  overflow: hidden; /* Prevent images from spilling out */
+  border-radius: 8px; /* Optional: Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for aesthetics */
+}
 .projectImage{
-  width: 90%;
+  width: 100%; /* Ensure image covers the container */
+  height: 100%; /* Maintain the aspect ratio */
+  object-fit: cover; /* Crops the image uniformly if it doesn't match the aspect ratio */
+  display: block;
   border-radius: 0.8rem;
+  border: 1px solid #a874c9;
+}
+.projectImage, .imageContainer:hover{
+  transform: scale(1.05); /* Slight zoom on hover */
+  transition: transform 0.3s ease;
 }
 .container{
   margin: 30px 20px 10px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  justify-content: center;
 }
 article{
   margin: 40px 20px 10px;

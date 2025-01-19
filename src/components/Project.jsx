@@ -1,7 +1,7 @@
 export default function Project(props){
     return(
         <article>
-            <div>
+            <div className='imageContainer'>
                 <a  target='_blank' href={props.liveSite}>
                 <img className="projectImage"
                 src={props.img.src} 
